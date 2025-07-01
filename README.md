@@ -1,7 +1,20 @@
 ```markdown
 # VoidCoder Frontend
 
-![VoidCoder Dashboard Screenshot](https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/dashboard-screenshot.png)
+<div align="center">
+  <h1>VoidCoder Frontend</h1>
+  <p>A modern, responsive UI for analyzing images and generating powerful development prompts for AI coding assistants.</p>
+</div>
+
+### Main Dashboard
+<img src="https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/dashboard-screenshot.png" alt="VoidCoder Dashboard" width="80%">
+
+<br />
+
+### Landing Page
+<img src="https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/main-page.png" alt="VoidCoder Landing Page" width="80%">
+
+<hr />
 
 This repository contains the **React frontend** for the VoidCoder application. It provides a modern, responsive user interface for uploading UI screenshots, managing analysis sessions, viewing AI-generated development prompts, and managing user accounts. The UI is built with a "Nimbus AI" inspired theme for a professional and engaging user experience.
 
