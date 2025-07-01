@@ -7,12 +7,12 @@
 </div>
 
 ### Main Dashboard
-<img src="https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/dashboard-screenshot.png " alt="VoidCoder Dashboard" width="80%">
+<img src="https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/dashboard-screenshot.png" alt="VoidCoder Dashboard" width="80%">
 
 <br />
 
 ### Landing Page
-<img src="https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/main-page.png " alt="VoidCoder Landing Page" width="80%">
+<img src="https://raw.githubusercontent.com/liosmoman/voidcoder-frontend/main/public/main-page.png" alt="VoidCoder Landing Page" width="80%">
 
 <hr />
 
