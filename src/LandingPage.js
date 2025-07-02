@@ -2,6 +2,7 @@
 import React from 'react';
 import { useNavigate, Link } from 'react-router-dom'; // Added Link
 import { SparklesIcon } from '@heroicons/react/24/solid';
+import { API_BASE_URL } from './apiService';
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -11,7 +12,7 @@ function LandingPage() {
     // navigate('/dashboard'); 
 
     // Option 2: Redirect to Google Login, then backend callback handles redirect to dashboard
-    window.location.href = 'http://127.0.0.1:8000/api/v1/auth/login/google';
+    window.location.href = `${API_BASE_URL}/auth/login/google`;
   };
 
   return (

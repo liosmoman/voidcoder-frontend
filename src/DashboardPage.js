@@ -5,6 +5,7 @@ import { useAuth } from './AuthContext';
 import Sidebar from './Sidebar';
 import ImageUploader from './ImageUploader';
 import { Bars3Icon, SparklesIcon } from '@heroicons/react/24/outline';
+import { API_BASE_URL } from './apiService';
 
 function DashboardPage() {
   const { isLoggedIn, currentUser, logout } = useAuth();
@@ -62,7 +63,7 @@ function DashboardPage() {
               </>
             ) : (
               <a 
-                href='http://127.0.0.1:8000/api/v1/auth/login/google'
+                href='${API_BASE_URL}/auth/login/google'
                 className="bg-nimbus-primary-accent hover:opacity-90 text-white text-xs sm:text-sm font-semibold py-2 px-3 sm:px-4 rounded-md transition duration-200"
               >
                 Sign in with Google
